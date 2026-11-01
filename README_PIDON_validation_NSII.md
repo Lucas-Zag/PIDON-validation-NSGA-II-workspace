@@ -1,6 +1,6 @@
 # XPIDON-Assisted Cure Cycle Optimisation and Finite Element Validation
 
-Research workspace for **UNSW Thesis C**: multi-objective optimisation of composite curing schedules using an Extended Physics-Informed Deep Operator Network (**XPIDON**), **NSGA-II**, and independent **one-dimensional finite element analysis (FEA)**.
+Research workspace for personal project: multi-objective optimisation of composite curing schedules using an Extended Physics-Informed Deep Operator Network (**XPIDON**), **NSGA-II**, and independent **one-dimensional finite element analysis (FEA)**.
 
 This repository collects the predictive model, numerical reference solver, optimisation experiments, Pareto-front analysis, and validation studies in one place. It also contains intermediate versions and exploratory code. **The numbered versions are research milestones, not interchangeable production releases.**
 
