@@ -1,0 +1,10 @@
+{
+  "comparison_config.json": "5a0b03e5fa902c1a8ab39ce96c155e9f1de5ea258f02d71645390d7005c3a577",
+  "run_fe_cases(2).py": "58df712045199cbdc24674dcbf41fd95d4728f70a305cdfb398d14b899a453ca",
+  "run_xpidon_cases(2).py": "e85d3fed0bc42483238148ed96cff2d5e28526a3647ae923fb8c9facbb36f709",
+  "run_all(2).sh": "dafe0ae41011053f496633eb79145df65ec0e16edeae851c7aa5e97003917cf2",
+  "prepare_cases.py": "473034d82c2fdd12aced0ad269a31c7c5f0961fa72c4b18a23e443995cb7c708",
+  "plot_cure_cycle_study.py": "ee1773724a9be29a3d5b7603de26bb6618c7e8451627161a24fbfcb7f0e9f174",
+  "compare_and_plot(2).py": "9ee28230161fdd254618af9df6b296d1c6d5c84237103b658a2fdd104265f944",
+  "cases(2).csv": "76d8ed58accb27946346f7947d8156d27ed728c8506759726ca220cd7af05027"
+}

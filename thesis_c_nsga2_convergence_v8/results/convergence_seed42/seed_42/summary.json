@@ -1,0 +1,109 @@
+{
+  "method": "NSGA-II",
+  "seed": 42,
+  "objectives": [
+    "min heating_and_hold_time",
+    "max min_thickness_hold_end_DoC"
+  ],
+  "alpha_requirement": 0.82,
+  "temperature_constraint": null,
+  "baseline": {
+    "F": [
+      251.0,
+      -0.7835798859596252
+    ],
+    "G": [
+      0.03642011404037471
+    ],
+    "feasible": false,
+    "hold_end_min": 251.0,
+    "alpha_min": 0.7835798859596252,
+    "peak_T_C": 183.70404052734375,
+    "alpha_spread": 0.025633513927459717
+  },
+  "unique_evaluations": 4000,
+  "requested_evaluations": 4000,
+  "feasible_count": 3788,
+  "feasible_fraction": 0.947,
+  "hypervolume": 86.42212912600931,
+  "pareto_count": 418,
+  "representative_solutions": {
+    "shortest_time": {
+      "X": [
+        2.9910863815027664,
+        119.99939067402241,
+        50.00305351190241,
+        2.9006175512914822,
+        184.9914322866017,
+        109.97470801692397
+      ],
+      "F": [
+        215.81650394335298,
+        -0.8200041651725769
+      ],
+      "G": [
+        -4.165172576953147e-06
+      ],
+      "feasible": true,
+      "hold_end_min": 215.81650394335298,
+      "alpha_min": 0.8200041651725769,
+      "peak_T_C": 193.6207275390625,
+      "alpha_spread": 0.02712845802307129,
+      "evaluation": 3936,
+      "evaluation_seconds": 0.03910420899046585
+    },
+    "highest_doc": {
+      "X": [
+        2.408023671855127,
+        119.99996204635234,
+        54.91275643327535,
+        1.5001468534242373,
+        184.9999007620572,
+        109.99970386929168
+      ],
+      "F": [
+        249.7693259685475,
+        -0.8306048512458801
+      ],
+      "G": [
+        -0.010604851245880176
+      ],
+      "feasible": true,
+      "hold_end_min": 249.7693259685475,
+      "alpha_min": 0.8306048512458801,
+      "peak_T_C": 191.7872772216797,
+      "alpha_spread": 0.020242393016815186,
+      "evaluation": 3741,
+      "evaluation_seconds": 0.031805000035092235
+    },
+    "compromise": {
+      "X": [
+        2.9714430329764254,
+        119.99842085433687,
+        50.01660861432485,
+        1.7865012556010076,
+        184.9999555678296,
+        109.97269554494
+      ],
+      "F": [
+        230.02727961770785,
+        -0.8271369934082031
+      ],
+      "G": [
+        -0.007136993408203174
+      ],
+      "feasible": true,
+      "hold_end_min": 230.02727961770785,
+      "alpha_min": 0.8271369934082031,
+      "peak_T_C": 193.6246337890625,
+      "alpha_spread": 0.02184927463531494,
+      "evaluation": 3591,
+      "evaluation_seconds": 0.03253533301176503
+    }
+  },
+  "time_improvement_vs_baseline_percent": 14.017329106233872,
+  "elapsed_seconds": 106.43833287502639,
+  "mean_evaluation_seconds": 0.024196215143296285,
+  "validation_status": "XPIDON surrogate only; independent FEA pending",
+  "caveat": "Peak temperature computed across whole model horizon; no material temperature cap applied. Hold-end time excludes cooling."
+}

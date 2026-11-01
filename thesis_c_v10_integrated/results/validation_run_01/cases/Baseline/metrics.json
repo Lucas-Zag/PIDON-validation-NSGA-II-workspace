@@ -1,0 +1,26 @@
+{
+  "case_id": "Baseline",
+  "hold_end_min": 251.0,
+  "xp_min_doc": 0.7835798859596252,
+  "fe_min_doc": 0.7826607321481472,
+  "xpidon_fe_doc_difference": 0.0009191538114780018,
+  "FEA_passes_0p82": false,
+  "xp_peak_part_T_C": 183.70404839515686,
+  "fe_peak_part_T_C": 183.75637793072357,
+  "T_error_C": {
+    "MAE": 0.10121455578497039,
+    "RMSE": 0.16169972413440148,
+    "MaxAE": 0.8758419671447939,
+    "bias": -0.046206487922552185
+  },
+  "DoC_error": {
+    "MAE": 0.0002505103295617555,
+    "RMSE": 0.0004036233803856017,
+    "MaxAE": 0.0032835908488629273,
+    "bias": 2.2077897052238263e-05
+  },
+  "FE_run_seconds": 0.664079624984879,
+  "XPIDON_inference_seconds": 0.7419611670193262,
+  "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+  "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+}

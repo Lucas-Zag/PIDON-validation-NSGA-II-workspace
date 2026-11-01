@@ -1,0 +1,48 @@
+{
+  "status": "numerically_validated",
+  "alpha_threshold": 0.82,
+  "experiment": "One-at-a-time local parameter sensitivity (NOT joint uncertainty or probability of failure)",
+  "n_cases": 15,
+  "by_base": {
+    "Shortest_feasible": {
+      "n_tested": 15,
+      "n_failed": 0,
+      "min_fe_doc": 0.8217976301920263,
+      "max_fe_doc": 0.8230495485376187,
+      "all_tested_feasible": true
+    }
+  },
+  "timing_benchmark": {
+    "scope": "1D FE + XPIDON same full field grid; pretrained weights held in memory; each repeat includes FE solver call and XPIDON branch/query creation; first repeat treated as warmup",
+    "repeats": [
+      {
+        "repeat": 1,
+        "warmup": false,
+        "FE_s": 0.5161268750089221,
+        "XPIDON_s": 0.06617725000251085,
+        "FE_over_XPIDON_ratio": 7.799158698636458,
+        "grid_points": 52569
+      },
+      {
+        "repeat": 2,
+        "warmup": false,
+        "FE_s": 0.5675767500069924,
+        "XPIDON_s": 0.06428362504811957,
+        "FE_over_XPIDON_ratio": 8.82925861107136,
+        "grid_points": 52569
+      },
+      {
+        "repeat": 3,
+        "warmup": false,
+        "FE_s": 0.5334033329854719,
+        "XPIDON_s": 0.06783520802855492,
+        "FE_over_XPIDON_ratio": 7.863222484125622,
+        "grid_points": 52569
+      }
+    ],
+    "median_FE_s": 0.5334033329854719,
+    "median_XPIDON_s": 0.06617725000251085,
+    "observed_FE_over_XPIDON_ratio": 8.060222099969913,
+    "limitations": "single test case/1D solver, grid-size-dependent; not NSGA-II throughput; no loading/compilation startup in the reported medians"
+  }
+}

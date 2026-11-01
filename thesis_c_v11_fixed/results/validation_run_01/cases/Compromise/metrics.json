@@ -1,0 +1,26 @@
+{
+  "case_id": "Compromise",
+  "hold_end_min": 238.78867571279326,
+  "xp_min_doc": 0.829986035823822,
+  "fe_min_doc": 0.8318601472511534,
+  "xpidon_fe_doc_difference": -0.0018741114273314041,
+  "FEA_passes_0p82": true,
+  "xp_peak_part_T_C": 192.82695651054382,
+  "fe_peak_part_T_C": 192.38125365620547,
+  "T_error_C": {
+    "MAE": 0.35402526589974753,
+    "RMSE": 0.4126257866614824,
+    "MaxAE": 1.610802979793874,
+    "bias": -0.24674326578530192
+  },
+  "DoC_error": {
+    "MAE": 0.0010661843587064768,
+    "RMSE": 0.001590916184397313,
+    "MaxAE": 0.007659252945899586,
+    "bias": -0.00015129125920458739
+  },
+  "FE_run_seconds": 0.803448082995601,
+  "XPIDON_inference_seconds": 0.18245729198679328,
+  "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+  "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+}

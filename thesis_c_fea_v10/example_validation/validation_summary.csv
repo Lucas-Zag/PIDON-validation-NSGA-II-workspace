@@ -1,0 +1,5 @@
+case_id,status,T_MAE_C,T_RMSE_C,alpha_MAE,alpha_RMSE,XPIDON_hold_end_minDoc,FEA_hold_end_minDoc,FEA_pass_0p82
+Baseline,PENDING
+Shortest_feasible,PENDING
+Highest_DoC,PENDING
+Compromise,PENDING

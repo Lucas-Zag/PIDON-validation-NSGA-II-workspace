@@ -1,0 +1,97 @@
+{
+  "checkpoints": [
+    {
+      "seed": 42,
+      "budget": 1200,
+      "feasible_count": 1051,
+      "feasible_rate": 0.8758333333333334,
+      "pareto_count": 87,
+      "hypervolume": 85.0380899300867,
+      "best_feasible_time_min": 217.45843248825162,
+      "best_feasible_doc": 0.8302764296531677,
+      "elapsed_seconds": 36.25291174999438,
+      "baseline_delta_time_percent": 13.363174307469475
+    },
+    {
+      "seed": 42,
+      "budget": 2000,
+      "feasible_count": 1838,
+      "feasible_rate": 0.919,
+      "pareto_count": 193,
+      "hypervolume": 85.9632152613944,
+      "best_feasible_time_min": 216.3695214459618,
+      "best_feasible_doc": 0.830578625202179,
+      "elapsed_seconds": 55.15828641701955,
+      "baseline_delta_time_percent": 13.797003407983349
+    },
+    {
+      "seed": 42,
+      "budget": 4000,
+      "feasible_count": 3788,
+      "feasible_rate": 0.947,
+      "pareto_count": 418,
+      "hypervolume": 86.42212912600931,
+      "best_feasible_time_min": 215.81650394335298,
+      "best_feasible_doc": 0.8306048512458801,
+      "elapsed_seconds": 105.75437762500951,
+      "baseline_delta_time_percent": 14.017329106233872
+    }
+  ],
+  "aggregated": [
+    {
+      "budget": 1200,
+      "n_seeds": 1,
+      "feasible_rate_mean": 0.8758333333333334,
+      "feasible_rate_std": null,
+      "hypervolume_mean": 85.0380899300867,
+      "hypervolume_std": null,
+      "best_feasible_time_min_mean": 217.45843248825162,
+      "best_feasible_time_min_std": null,
+      "best_feasible_doc_mean": 0.8302764296531677,
+      "best_feasible_doc_std": null,
+      "elapsed_seconds_mean": 36.25291174999438,
+      "elapsed_seconds_std": null,
+      "baseline_delta_time_percent_mean": 13.363174307469475,
+      "baseline_delta_time_percent_std": null
+    },
+    {
+      "budget": 2000,
+      "n_seeds": 1,
+      "feasible_rate_mean": 0.919,
+      "feasible_rate_std": null,
+      "hypervolume_mean": 85.9632152613944,
+      "hypervolume_std": null,
+      "best_feasible_time_min_mean": 216.3695214459618,
+      "best_feasible_time_min_std": null,
+      "best_feasible_doc_mean": 0.830578625202179,
+      "best_feasible_doc_std": null,
+      "elapsed_seconds_mean": 55.15828641701955,
+      "elapsed_seconds_std": null,
+      "baseline_delta_time_percent_mean": 13.797003407983349,
+      "baseline_delta_time_percent_std": null
+    },
+    {
+      "budget": 4000,
+      "n_seeds": 1,
+      "feasible_rate_mean": 0.947,
+      "feasible_rate_std": null,
+      "hypervolume_mean": 86.42212912600931,
+      "hypervolume_std": null,
+      "best_feasible_time_min_mean": 215.81650394335298,
+      "best_feasible_time_min_std": null,
+      "best_feasible_doc_mean": 0.8306048512458801,
+      "best_feasible_doc_std": null,
+      "elapsed_seconds_mean": 105.75437762500951,
+      "elapsed_seconds_std": null,
+      "baseline_delta_time_percent_mean": 14.017329106233872,
+      "baseline_delta_time_percent_std": null
+    }
+  ],
+  "notes": [
+    "All metrics derived from actual XPIDON prediction records.",
+    "Checkpoint budgets are nested within each independent 4000-evaluation seed run.",
+    "HV uses the fixed V7 reference (320 min, -DoC=0); use common reference and objective directions across all runs.",
+    "These are surrogate predictions; FEA validation remains pending.",
+    "Small standard deviations from few seeds are descriptive, not proof of statistical significance."
+  ]
+}

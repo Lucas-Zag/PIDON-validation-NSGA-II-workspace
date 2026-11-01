@@ -1,0 +1,98 @@
+{
+  "research_only": true,
+  "thresholds": {
+    "alpha_min": 0.82,
+    "peak_T_C": 195.0
+  },
+  "baseline_metrics": {
+    "hold_end_min": 251.0,
+    "alpha_min": 0.7835798859596252,
+    "alpha_spread": 0.025633513927459717,
+    "peak_T_C": 183.70404052734375
+  },
+  "predictor_consistency": {
+    "baseline_recomputed": {
+      "hold_end_min": 251.0,
+      "alpha_min": 0.7835798859596252,
+      "alpha_spread": 0.025633513927459717,
+      "peak_T_C": 183.70404052734375
+    },
+    "status": "no_reference_supplied"
+  },
+  "evaluation": {
+    "SAC": {
+      "episodes": 20,
+      "feasible_rate": 0.1,
+      "mean_final_score": -1.8554208012565385,
+      "mean_final_alpha_min": 0.7980504363775254,
+      "best_feasible": {
+        "episode": 3,
+        "method": "SAC",
+        "step": 8,
+        "reward": -0.0012196418642913542,
+        "score": -0.9486734681425665,
+        "feasible": true,
+        "hold_end_min": 237.1683670356416,
+        "alpha_min": 0.8263323903083801,
+        "peak_T_C": 192.4895477294922,
+        "alpha_spread": 0.02250373363494873,
+        "ramp1_C_min": 2.8076345614222604,
+        "hold1_T_C": 114.12832505551583,
+        "hold1_d_min": 51.98127343927545,
+        "ramp2_C_min": 1.5154318386317411,
+        "hold2_T_C": 185.0,
+        "hold2_d_min": 104.89459419432741
+      }
+    },
+    "Random": {
+      "episodes": 20,
+      "feasible_rate": 0.1,
+      "mean_final_score": -1.8927320935710834,
+      "mean_final_alpha_min": 0.7965806573629379,
+      "best_feasible": {
+        "episode": 2,
+        "method": "Random",
+        "step": 8,
+        "reward": 0.1902459313035476,
+        "score": -0.9607090178131581,
+        "feasible": true,
+        "hold_end_min": 240.17725445328952,
+        "alpha_min": 0.8208252191543579,
+        "peak_T_C": 191.9092559814453,
+        "alpha_spread": 0.025623798370361328,
+        "ramp1_C_min": 2.022429199249504,
+        "hold1_T_C": 116.32462932269709,
+        "hold1_d_min": 53.45636191368103,
+        "ramp2_C_min": 1.876691035194478,
+        "hold2_T_C": 184.72811966967302,
+        "hold2_d_min": 102.64372018248079
+      }
+    },
+    "NoChange": {
+      "episodes": 20,
+      "feasible_rate": 0.05,
+      "mean_final_score": -1.9068439154059171,
+      "mean_final_alpha_min": 0.7963791251182556,
+      "best_feasible": {
+        "episode": 3,
+        "method": "NoChange",
+        "step": 8,
+        "reward": 0.0,
+        "score": -0.9391438806099297,
+        "feasible": true,
+        "hold_end_min": 234.78597015248243,
+        "alpha_min": 0.8250396251678467,
+        "peak_T_C": 192.5984344482422,
+        "alpha_spread": 0.023105144500732422,
+        "ramp1_C_min": 2.7924776772288395,
+        "hold1_T_C": 112.87019307461986,
+        "hold1_d_min": 50.860611608373354,
+        "ramp2_C_min": 1.5850728851557891,
+        "hold2_T_C": 184.85692123582646,
+        "hold2_d_min": 105.25267961207491
+      }
+    }
+  },
+  "unique_xpidon_evaluations": 341,
+  "comparison_note": "Same initial states and number of actions; SAC training budget is additional and must be counted in fair end-to-end comparisons."
+}

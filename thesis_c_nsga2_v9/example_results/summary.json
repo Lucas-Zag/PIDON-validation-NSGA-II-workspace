@@ -1,0 +1,80 @@
+{
+  "source_runs": [
+    "/tmp/tmpx8dv7pij/convergence_3seeds/seed_42",
+    "/tmp/tmpx8dv7pij/convergence_3seeds/seed_43",
+    "/tmp/tmpx8dv7pij/convergence_3seeds/seed_44"
+  ],
+  "note": "Empirical merged nondominated front, not certified global optimum. All values are XPIDON predictions; FEA pending.",
+  "alpha_requirement": 0.82,
+  "reference_front_size": 626,
+  "representative_solutions": {
+    "Shortest feasible": {
+      "source_seed": 42,
+      "time_min": 215.81650394335298,
+      "minimum_doc": 0.8200041651725769,
+      "peak_temperature_C": 193.6207275390625,
+      "percent_time_reduction_vs_cycle1": 14.017329106233872,
+      "parameters": {
+        "ramp1_C_min": 2.9910863815027664,
+        "hold1_T_C": 119.99939067402241,
+        "hold1_d_min": 50.00305351190241,
+        "ramp2_C_min": 2.9006175512914822,
+        "hold2_T_C": 184.9914322866017,
+        "hold2_d_min": 109.97470801692397
+      }
+    },
+    "Highest DoC": {
+      "source_seed": 43,
+      "time_min": 289.8880095272558,
+      "minimum_doc": 0.8354147672653198,
+      "peak_temperature_C": 191.3441162109375,
+      "percent_time_reduction_vs_cycle1": -15.49323088735291,
+      "parameters": {
+        "ramp1_C_min": 1.500317641313836,
+        "hold1_T_C": 119.97532985563105,
+        "hold1_d_min": 69.90897729359841,
+        "ramp2_C_min": 1.5000338756566511,
+        "hold2_T_C": 184.99998448490007,
+        "hold2_d_min": 109.99413247702986
+      }
+    },
+    "Compromise": {
+      "source_seed": 42,
+      "time_min": 238.78867571279326,
+      "minimum_doc": 0.829986035823822,
+      "peak_temperature_C": 192.8269500732422,
+      "percent_time_reduction_vs_cycle1": 4.865069437134157,
+      "parameters": {
+        "ramp1_C_min": 2.8181727104588674,
+        "hold1_T_C": 119.99974366090613,
+        "hold1_d_min": 50.00252609145744,
+        "ramp2_C_min": 1.5001797129795222,
+        "hold2_T_C": 184.99847016878297,
+        "hold2_d_min": 109.97496158281747
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "evaluations": 4000,
+      "front_size": 418,
+      "IGD_plus_vs_leave_one_seed_out_reference": 0.007588718709367625,
+      "note": "IGD+ uses fixed scales 100 min and 0.1 DoC; leave-one-seed-out reference is NOT an external ground truth"
+    },
+    {
+      "seed": 43,
+      "evaluations": 4000,
+      "front_size": 451,
+      "IGD_plus_vs_leave_one_seed_out_reference": 0.0010205303068163971,
+      "note": "IGD+ uses fixed scales 100 min and 0.1 DoC; leave-one-seed-out reference is NOT an external ground truth"
+    },
+    {
+      "seed": 44,
+      "evaluations": 4000,
+      "front_size": 357,
+      "IGD_plus_vs_leave_one_seed_out_reference": 0.0005119311771369452,
+      "note": "IGD+ uses fixed scales 100 min and 0.1 DoC; leave-one-seed-out reference is NOT an external ground truth"
+    }
+  ]
+}

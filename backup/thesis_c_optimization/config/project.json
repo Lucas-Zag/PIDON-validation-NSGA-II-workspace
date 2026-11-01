@@ -1,0 +1,30 @@
+{
+  "stage": "preparation",
+  "siblings": {
+    "xpidon": "XPIDON-Composites-FV1",
+    "validation": "validation_fe_reference_v2",
+    "comparison": "comparison"
+  },
+  "integration": {
+    "mode": "python_imports_in_isolated_worker",
+    "xpidon_api": "XPIDON.pred_T / pred_a; explicit paired pretrained checkpoints",
+    "validation_api": "fe_reference.solver.solve_case(case, config)",
+    "note": "Confirmed from uploaded comparison callers. No HTTP server or port is used."
+  },
+  "optimization": {
+    "algorithm": "NSGA-II",
+    "variables": ["r1", "ht1", "hd1", "r2", "ht2", "hd2"],
+    "fixed": ["hcb", "hct", "lt", "composite_thickness", "material_physics"],
+    "objectives": null,
+    "evaluation_time_definition": null,
+    "alpha_min": null,
+    "part_temperature_limit_C": null,
+    "note": "Constraints need traceable sources; normalization T_max is not a safety limit."
+  },
+  "reference_cases": {
+    "case_ids": ["cure_cycle_1", "cure_cycle_2"],
+    "default_for_preparation": "cure_cycle_1",
+    "fixed": {"hbot_W_m2K":70.0,"htop_W_m2K":95.0,"Lt_m":0.04,"Lc_m":0.03,"total_process_time_s":18800.0},
+    "note": "Existing paired cure-cycle study. Default is a preparation reference, not a claim that the supervisor selected an optimisation baseline."
+  }
+}

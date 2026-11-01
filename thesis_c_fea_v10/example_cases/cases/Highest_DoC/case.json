@@ -1,0 +1,26 @@
+{
+  "case_id": "Highest_DoC",
+  "label": "Highest DoC",
+  "parameters": {
+    "ramp1_C_min": 1.500317641313836,
+    "hold1_T_C": 119.97532985563105,
+    "hold1_d_min": 69.90897729359841,
+    "ramp2_C_min": 1.5000338756566511,
+    "hold2_T_C": 184.99998448490007,
+    "hold2_d_min": 109.99413247702986
+  },
+  "hold_end_min": 289.8880095272558,
+  "hbot_W_m2K": 70,
+  "htop_W_m2K": 95,
+  "tool_thickness_m": 0.04,
+  "composite_thickness_m": 0.03,
+  "initial_temperature_C": 20,
+  "alpha_requirement": 0.82,
+  "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+  "model_prediction_unvalidated": {
+    "minimum_hold_end_DoC": 0.8354147672653198,
+    "peak_part_temperature_C": 191.3441162109375
+  },
+  "reference_prediction_horizon_s": 18800,
+  "case_sha256": "a409532f606dbc0afb44933fad233d1e43c8691b4f301617649411749a6a3f3e"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "case_id": "Baseline",
+    "hold_end_min": 251.0,
+    "xp_min_doc": 0.7835798859596252,
+    "fe_min_doc": 0.7826607321481472,
+    "xpidon_fe_doc_difference": 0.0009191538114780018,
+    "FEA_passes_0p82": false,
+    "xp_peak_part_T_C": 183.70404839515686,
+    "fe_peak_part_T_C": 183.75637793072357,
+    "T_error_C": {
+      "MAE": 0.10121455578497039,
+      "RMSE": 0.16169972413440148,
+      "MaxAE": 0.8758419671447939,
+      "bias": -0.046206487922552185
+    },
+    "DoC_error": {
+      "MAE": 0.0002505103295617555,
+      "RMSE": 0.0004036233803856017,
+      "MaxAE": 0.0032835908488629273,
+      "bias": 2.2077897052238263e-05
+    },
+    "FE_run_seconds": 0.664079624984879,
+    "XPIDON_inference_seconds": 0.7419611670193262,
+    "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+    "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+  },
+  {
+    "case_id": "Shortest_feasible",
+    "hold_end_min": 215.81650394335298,
+    "xp_min_doc": 0.8200041651725769,
+    "fe_min_doc": 0.8228950936392709,
+    "xpidon_fe_doc_difference": -0.0028909284666940316,
+    "FEA_passes_0p82": true,
+    "xp_peak_part_T_C": 193.6207413673401,
+    "fe_peak_part_T_C": 192.74466132356577,
+    "T_error_C": {
+      "MAE": 0.604690366220073,
+      "RMSE": 0.8806794676779239,
+      "MaxAE": 4.512408946272984,
+      "bias": -0.48631379615559833
+    },
+    "DoC_error": {
+      "MAE": 0.0044649132056086855,
+      "RMSE": 0.010270271981362742,
+      "MaxAE": 0.06618535702880374,
+      "bias": -0.004116723029094676
+    },
+    "FE_run_seconds": 0.5927515420480631,
+    "XPIDON_inference_seconds": 0.1700882909935899,
+    "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+    "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+  },
+  {
+    "case_id": "Highest_DoC",
+    "hold_end_min": 289.8880095272558,
+    "xp_min_doc": 0.8354147672653198,
+    "fe_min_doc": 0.8335058651170753,
+    "xpidon_fe_doc_difference": 0.0019089021482445734,
+    "FEA_passes_0p82": true,
+    "xp_peak_part_T_C": 191.34412705898285,
+    "fe_peak_part_T_C": 190.33775474890152,
+    "T_error_C": {
+      "MAE": 0.8942123562109735,
+      "RMSE": 1.610795087784715,
+      "MaxAE": 8.621943018105611,
+      "bias": 0.706089134575518
+    },
+    "DoC_error": {
+      "MAE": 0.002441179246514774,
+      "RMSE": 0.005153605445832515,
+      "MaxAE": 0.033903518757031015,
+      "bias": 0.0010094810701952027
+    },
+    "FE_run_seconds": 0.6863407920463942,
+    "XPIDON_inference_seconds": 0.26278124999953434,
+    "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+    "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+  },
+  {
+    "case_id": "Compromise",
+    "hold_end_min": 238.78867571279326,
+    "xp_min_doc": 0.829986035823822,
+    "fe_min_doc": 0.8318601472511534,
+    "xpidon_fe_doc_difference": -0.0018741114273314041,
+    "FEA_passes_0p82": true,
+    "xp_peak_part_T_C": 192.82695651054382,
+    "fe_peak_part_T_C": 192.38125365620547,
+    "T_error_C": {
+      "MAE": 0.35402526589974753,
+      "RMSE": 0.4126257866614824,
+      "MaxAE": 1.610802979793874,
+      "bias": -0.24674326578530192
+    },
+    "DoC_error": {
+      "MAE": 0.0010661843587064768,
+      "RMSE": 0.001590916184397313,
+      "MaxAE": 0.007659252945899586,
+      "bias": -0.00015129125920458739
+    },
+    "FE_run_seconds": 0.803448082995601,
+    "XPIDON_inference_seconds": 0.18245729198679328,
+    "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+    "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+  }
+]

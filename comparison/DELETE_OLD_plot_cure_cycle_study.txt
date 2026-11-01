@@ -1,0 +1,6 @@
+The old plot_cure_cycle_study.py is no longer required.
+
+compare_and_plot.py now automatically generates:
+    figures/study_cure_cycle.png
+
+Delete the old local plot_cure_cycle_study.py to avoid duplicate and inconsistent plotting code.

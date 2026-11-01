@@ -1,0 +1,26 @@
+{
+  "case_id": "Compromise",
+  "label": "Compromise",
+  "parameters": {
+    "ramp1_C_min": 2.8181727104588674,
+    "hold1_T_C": 119.99974366090613,
+    "hold1_d_min": 50.00252609145744,
+    "ramp2_C_min": 1.5001797129795222,
+    "hold2_T_C": 184.99847016878297,
+    "hold2_d_min": 109.97496158281747
+  },
+  "hold_end_min": 238.7886757127933,
+  "hbot_W_m2K": 70,
+  "htop_W_m2K": 95,
+  "tool_thickness_m": 0.04,
+  "composite_thickness_m": 0.03,
+  "initial_temperature_C": 20,
+  "alpha_requirement": 0.82,
+  "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+  "model_prediction_unvalidated": {
+    "minimum_hold_end_DoC": 0.829986035823822,
+    "peak_part_temperature_C": 192.8269500732422
+  },
+  "reference_prediction_horizon_s": 18800,
+  "case_sha256": "c8e7bb26063935ec5c0bce78378ba3c6a6a0de68ec7d58e037b6db8bff237d5e"
+}

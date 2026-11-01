@@ -1,0 +1,7 @@
+outputs/*
+!outputs/.gitkeep
+figures/*
+!figures/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store

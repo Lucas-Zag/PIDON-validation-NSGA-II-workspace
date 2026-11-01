@@ -1,0 +1,11 @@
+{
+  "ramp1_C_min": 2.2,
+  "hold1_T_C": 110.0,
+  "hold1_min": 58.0,
+  "ramp2_C_min": 2.2,
+  "hold2_T_C": 180.0,
+  "hold2_min": 105.0,
+  "htc_bottom": 90.0,
+  "htc_top": 75.0,
+  "tool_thickness_m": 0.025
+}

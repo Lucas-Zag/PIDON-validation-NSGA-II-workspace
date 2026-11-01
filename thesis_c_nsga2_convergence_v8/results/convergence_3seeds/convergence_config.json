@@ -1,0 +1,23 @@
+{
+  "configuration": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "population": 40,
+    "budget": 4000,
+    "alpha_req": 0.82,
+    "manifest": "../thesis_c_optimization/outputs/20261001T070827907494Z_preoptimization_xpidon/model_manifest.json",
+    "cases": "../comparison/cases.csv",
+    "baseline": "cure_cycle_1",
+    "output": "results/convergence_3seeds",
+    "skip_existing": false
+  },
+  "checkpoints": [
+    1200,
+    2000,
+    4000
+  ],
+  "method": "one continuous NSGA-II run per seed; paired checkpoints"
+}

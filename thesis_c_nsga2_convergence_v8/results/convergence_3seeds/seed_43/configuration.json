@@ -1,0 +1,27 @@
+{
+  "args": {
+    "manifest": "/Users/luzhang/Projects/PIDON-validation-workspace/thesis_c_optimization/outputs/20261001T070827907494Z_preoptimization_xpidon/model_manifest.json",
+    "cases": "/Users/luzhang/Projects/PIDON-validation-workspace/comparison/cases.csv",
+    "baseline": "cure_cycle_1",
+    "alpha_req": 0.82,
+    "budget": 4000,
+    "population": 40,
+    "seed": 43,
+    "report_every": 5,
+    "output": "/Users/luzhang/Projects/PIDON-validation-workspace/thesis_c_nsga2_convergence_v8/results/convergence_3seeds/seed_43"
+  },
+  "objectives": [
+    "min hold_end_min",
+    "max min hold-end DoC"
+  ],
+  "constraint": "min hold-end DoC >= alpha_req",
+  "peak_temperature": "reported only; not a hard constraint",
+  "hypervolume_reference_F": [
+    320.0,
+    0.0
+  ],
+  "python": "3.11.15 (main, Jun 11 2026, 15:14:57) [Clang 20.1.8 ]",
+  "platform": "macOS-15.1-arm64-arm-64bit",
+  "baseline_case": "cure_cycle_1",
+  "manifest": "/Users/luzhang/Projects/PIDON-validation-workspace/thesis_c_optimization/outputs/20261001T070827907494Z_preoptimization_xpidon/model_manifest.json"
+}

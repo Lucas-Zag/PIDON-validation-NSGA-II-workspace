@@ -1,0 +1,17 @@
+{
+  "random_zero_shot": {
+    "enabled": true,
+    "count": 20,
+    "seed": 20260731,
+    "interior_margin_fraction": 0.05
+  },
+  "through_thickness_case_id": "cure_cycle_1",
+  "prediction_positions": [
+    "tool_bottom",
+    "tool_mid",
+    "tool_interface",
+    "part_interface",
+    "part_mid",
+    "part_top"
+  ]
+}

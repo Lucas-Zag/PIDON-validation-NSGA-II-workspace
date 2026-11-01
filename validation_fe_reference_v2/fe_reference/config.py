@@ -1,0 +1,13 @@
+from pathlib import Path
+import yaml
+
+
+def project_root() -> Path:
+    return Path(__file__).resolve().parents[1]
+
+
+def load_config(path=None) -> dict:
+    if path is None:
+        path = project_root() / 'config' / 'reference_config.yaml'
+    with open(path, 'r', encoding='utf-8') as f:
+        return yaml.safe_load(f)

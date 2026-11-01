@@ -1,0 +1,34 @@
+[
+  {
+    "repeat": 0,
+    "warmup": true,
+    "FE_s": 0.5483246659860015,
+    "XPIDON_s": 0.536597374943085,
+    "FE_over_XPIDON_ratio": 1.0218549169089028,
+    "grid_points": 52569
+  },
+  {
+    "repeat": 1,
+    "warmup": false,
+    "FE_s": 0.5161268750089221,
+    "XPIDON_s": 0.06617725000251085,
+    "FE_over_XPIDON_ratio": 7.799158698636458,
+    "grid_points": 52569
+  },
+  {
+    "repeat": 2,
+    "warmup": false,
+    "FE_s": 0.5675767500069924,
+    "XPIDON_s": 0.06428362504811957,
+    "FE_over_XPIDON_ratio": 8.82925861107136,
+    "grid_points": 52569
+  },
+  {
+    "repeat": 3,
+    "warmup": false,
+    "FE_s": 0.5334033329854719,
+    "XPIDON_s": 0.06783520802855492,
+    "FE_over_XPIDON_ratio": 7.863222484125622,
+    "grid_points": 52569
+  }
+]

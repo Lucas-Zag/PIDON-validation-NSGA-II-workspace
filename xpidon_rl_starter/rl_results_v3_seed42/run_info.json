@@ -1,0 +1,17 @@
+{
+  "research_only": true,
+  "baseline": "cure_cycle_1",
+  "seed": 42,
+  "steps": 1000,
+  "alpha_requirement": 0.82,
+  "temperature_limit_C": 195.0,
+  "reward_mode": "v3",
+  "max_steps_per_episode": 8,
+  "action_fraction": 0.12,
+  "action_decay": 0.5,
+  "eval_freq": 250,
+  "eval_episodes": 10,
+  "unique_evaluations": 1471,
+  "elapsed_seconds": 23.23351512500085,
+  "notes": "Uses same frozen XPIDON checkpoints; FE validation pending. Optimization step is not physical process time."
+}

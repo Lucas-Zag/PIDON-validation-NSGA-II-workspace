@@ -1,0 +1,8 @@
+{
+  "representatives": "/Users/luzhang/Projects/PIDON-validation-workspace/thesis_c_nsga2_v9/example_results/representative_solutions.json",
+  "workspace": "/Users/luzhang/Projects/PIDON-validation-workspace",
+  "FE_config": "/Users/luzhang/Projects/PIDON-validation-workspace/validation_fe_reference_v2/config/reference_config.yaml",
+  "time_step_s": 10,
+  "spatial_points": 81,
+  "research_Doc_requirement": 0.82
+}

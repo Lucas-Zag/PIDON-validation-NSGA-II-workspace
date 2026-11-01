@@ -1,0 +1,26 @@
+{
+  "case_id": "Highest_DoC",
+  "hold_end_min": 289.8880095272558,
+  "xp_min_doc": 0.8354147672653198,
+  "fe_min_doc": 0.8335058651170753,
+  "xpidon_fe_doc_difference": 0.0019089021482445734,
+  "FEA_passes_0p82": true,
+  "xp_peak_part_T_C": 191.34412705898285,
+  "fe_peak_part_T_C": 190.33775474890152,
+  "T_error_C": {
+    "MAE": 0.8942123562109735,
+    "RMSE": 1.610795087784715,
+    "MaxAE": 8.621943018105611,
+    "bias": 0.706089134575518
+  },
+  "DoC_error": {
+    "MAE": 0.002441179246514774,
+    "RMSE": 0.005153605445832515,
+    "MaxAE": 0.033903518757031015,
+    "bias": 0.0010094810701952027
+  },
+  "FE_run_seconds": 0.6863407920463942,
+  "XPIDON_inference_seconds": 0.26278124999953434,
+  "comparison_interval": "heating-and-hold [0, hold-end] (not full cooling cycle)",
+  "source": "Independent FE reference numerical solver vs frozen XPIDON checkpoints"
+}

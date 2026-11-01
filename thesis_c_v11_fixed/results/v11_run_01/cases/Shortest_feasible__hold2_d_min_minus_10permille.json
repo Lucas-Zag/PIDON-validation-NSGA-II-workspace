@@ -1,0 +1,19 @@
+{
+  "case_id": "Shortest_feasible__hold2_d_min_minus_10permille",
+  "base_case": "Shortest_feasible",
+  "varied_parameter": "hold2_d_min",
+  "fraction_of_training_range": 0.01,
+  "sign": -1,
+  "hold_end_min": 215.71650394335296,
+  "fe_min_doc": 0.8227995783837467,
+  "fe_pass": true,
+  "fe_solve_s": 0.5487694590119645,
+  "case_parameters": {
+    "ramp1_C_min": 2.9910863815027664,
+    "hold1_T_C": 119.99939067402241,
+    "hold1_d_min": 50.00305351190241,
+    "ramp2_C_min": 2.9006175512914822,
+    "hold2_T_C": 184.9914322866017,
+    "hold2_d_min": 109.87470801692398
+  }
+}

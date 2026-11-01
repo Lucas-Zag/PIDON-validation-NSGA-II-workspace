@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "case_id": "Baseline",
+      "status": "PENDING",
+      "missing": [
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Baseline/xpidon.csv",
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Baseline/fea.csv"
+      ]
+    },
+    {
+      "case_id": "Shortest_feasible",
+      "status": "PENDING",
+      "missing": [
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Shortest_feasible/xpidon.csv",
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Shortest_feasible/fea.csv"
+      ]
+    },
+    {
+      "case_id": "Highest_DoC",
+      "status": "PENDING",
+      "missing": [
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Highest_DoC/xpidon.csv",
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Highest_DoC/fea.csv"
+      ]
+    },
+    {
+      "case_id": "Compromise",
+      "status": "PENDING",
+      "missing": [
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Compromise/xpidon.csv",
+        "/mnt/data/thesis_c_fea_v10/example_cases/cases/Compromise/fea.csv"
+      ]
+    }
+  ],
+  "note": "Numerical comparison only. Case/material/FEA provenance must be reviewed before making physics-validation claims."
+}

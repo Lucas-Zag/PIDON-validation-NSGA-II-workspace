@@ -1,0 +1,103 @@
+[
+  {
+    "case_id": "Baseline",
+    "label": "Baseline",
+    "parameters": {
+      "ramp1_C_min": 2.0,
+      "hold1_T_C": 108.0,
+      "hold1_d_min": 65.0,
+      "ramp2_C_min": 2.0,
+      "hold2_T_C": 176.0,
+      "hold2_d_min": 108.0
+    },
+    "hold_end_min": 251.0,
+    "hbot_W_m2K": 70,
+    "htop_W_m2K": 95,
+    "tool_thickness_m": 0.04,
+    "composite_thickness_m": 0.03,
+    "initial_temperature_C": 20,
+    "alpha_requirement": 0.82,
+    "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+    "model_prediction_unvalidated": null,
+    "reference_prediction_horizon_s": 18800,
+    "case_sha256": "de6e923d3bba774a7b2c343f5d95997e3a16ad71e5f8e9a2baf08bc80bdb0048"
+  },
+  {
+    "case_id": "Shortest_feasible",
+    "label": "Shortest feasible",
+    "parameters": {
+      "ramp1_C_min": 2.9910863815027664,
+      "hold1_T_C": 119.99939067402241,
+      "hold1_d_min": 50.00305351190241,
+      "ramp2_C_min": 2.9006175512914822,
+      "hold2_T_C": 184.9914322866017,
+      "hold2_d_min": 109.97470801692397
+    },
+    "hold_end_min": 215.81650394335298,
+    "hbot_W_m2K": 70,
+    "htop_W_m2K": 95,
+    "tool_thickness_m": 0.04,
+    "composite_thickness_m": 0.03,
+    "initial_temperature_C": 20,
+    "alpha_requirement": 0.82,
+    "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+    "model_prediction_unvalidated": {
+      "minimum_hold_end_DoC": 0.8200041651725769,
+      "peak_part_temperature_C": 193.6207275390625
+    },
+    "reference_prediction_horizon_s": 18800,
+    "case_sha256": "a89effdbb451599a1e8543928a32d4f32b85d0454f04c9a16e48cebf6df0357b"
+  },
+  {
+    "case_id": "Highest_DoC",
+    "label": "Highest DoC",
+    "parameters": {
+      "ramp1_C_min": 1.500317641313836,
+      "hold1_T_C": 119.97532985563105,
+      "hold1_d_min": 69.90897729359841,
+      "ramp2_C_min": 1.5000338756566511,
+      "hold2_T_C": 184.99998448490007,
+      "hold2_d_min": 109.99413247702986
+    },
+    "hold_end_min": 289.8880095272558,
+    "hbot_W_m2K": 70,
+    "htop_W_m2K": 95,
+    "tool_thickness_m": 0.04,
+    "composite_thickness_m": 0.03,
+    "initial_temperature_C": 20,
+    "alpha_requirement": 0.82,
+    "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+    "model_prediction_unvalidated": {
+      "minimum_hold_end_DoC": 0.8354147672653198,
+      "peak_part_temperature_C": 191.3441162109375
+    },
+    "reference_prediction_horizon_s": 18800,
+    "case_sha256": "a409532f606dbc0afb44933fad233d1e43c8691b4f301617649411749a6a3f3e"
+  },
+  {
+    "case_id": "Compromise",
+    "label": "Compromise",
+    "parameters": {
+      "ramp1_C_min": 2.8181727104588674,
+      "hold1_T_C": 119.99974366090613,
+      "hold1_d_min": 50.00252609145744,
+      "ramp2_C_min": 1.5001797129795222,
+      "hold2_T_C": 184.99847016878297,
+      "hold2_d_min": 109.97496158281747
+    },
+    "hold_end_min": 238.7886757127933,
+    "hbot_W_m2K": 70,
+    "htop_W_m2K": 95,
+    "tool_thickness_m": 0.04,
+    "composite_thickness_m": 0.03,
+    "initial_temperature_C": 20,
+    "alpha_requirement": 0.82,
+    "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+    "model_prediction_unvalidated": {
+      "minimum_hold_end_DoC": 0.829986035823822,
+      "peak_part_temperature_C": 192.8269500732422
+    },
+    "reference_prediction_horizon_s": 18800,
+    "case_sha256": "c8e7bb26063935ec5c0bce78378ba3c6a6a0de68ec7d58e037b6db8bff237d5e"
+  }
+]

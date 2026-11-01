@@ -1,0 +1,56 @@
+provenance:
+  model_basis: "Base paper equations (5)-(12) and official XPIDON repository parameters"
+  repository_heat_coefficient_dimensionless: 0.7003080410794345
+  repository_temperature_scale_C: 250.0
+
+initial_conditions:
+  temperature_C: 20.0
+  alpha: 0.05
+
+cure_kinetics:
+  A_1_s: 1.528e5
+  activation_energy_J_mol: 6.650e4
+  gas_constant_J_molK: 8.314
+  m: 0.8129
+  n: 2.7360
+  C: 43.09
+  C0: -1.6840
+  CT_1_K: 5.475e-3
+
+materials:
+  tool_invar:
+    conductivity_W_mK: 13.0
+    diffusivity_m2_s: 3.1276314e-6
+  composite_as4_8552:
+    conductivity_W_mK: 0.6386316
+    diffusivity_m2_s: 3.7388048e-7
+
+heat_generation:
+  # Derived from official XPIDON training coefficient and T_max.
+  dimensionless_b_repository: 0.7003080410794345
+  temperature_scale_C: 250.0
+  physical_b_K: 175.07701026985863
+
+cure_cycle:
+  total_process_time_s: 18800.0
+  final_temperature_C: 20.0
+  sensor_count: 100
+
+solver:
+  n_tool_elements: 60
+  n_part_elements: 60
+  output_dt_s: 20.0
+  max_step_s: 20.0
+  method: BDF
+  rtol: 1.0e-7
+  atol_temperature: 1.0e-8
+  atol_alpha: 1.0e-10
+
+verification:
+  mesh_levels: [20, 40, 80, 120]
+  time_max_steps_s: [80.0, 40.0, 20.0, 10.0]
+  mesh_peak_temperature_tolerance_C: 0.20
+  time_peak_temperature_tolerance_C: 0.10
+  energy_relative_tolerance: 0.005
+  minimum_exotherm_C: 1.0
+  minimum_reaction_peak_increment_C: 1.0

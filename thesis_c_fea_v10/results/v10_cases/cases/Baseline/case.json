@@ -1,0 +1,23 @@
+{
+  "case_id": "Baseline",
+  "label": "Baseline",
+  "parameters": {
+    "ramp1_C_min": 2.0,
+    "hold1_T_C": 108.0,
+    "hold1_d_min": 65.0,
+    "ramp2_C_min": 2.0,
+    "hold2_T_C": 176.0,
+    "hold2_d_min": 108.0
+  },
+  "hold_end_min": 251.0,
+  "hbot_W_m2K": 70,
+  "htop_W_m2K": 95,
+  "tool_thickness_m": 0.04,
+  "composite_thickness_m": 0.03,
+  "initial_temperature_C": 20,
+  "alpha_requirement": 0.82,
+  "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+  "model_prediction_unvalidated": null,
+  "reference_prediction_horizon_s": 18800,
+  "case_sha256": "de6e923d3bba774a7b2c343f5d95997e3a16ad71e5f8e9a2baf08bc80bdb0048"
+}

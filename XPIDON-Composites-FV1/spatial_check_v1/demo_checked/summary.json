@@ -1,0 +1,34 @@
+{
+  "mode": "synthetic",
+  "backend": "synthetic, not XPIDON",
+  "case": {
+    "ramp1_C_min": 2.2,
+    "hold1_T_C": 110.0,
+    "hold1_min": 58.0,
+    "ramp2_C_min": 2.2,
+    "hold2_T_C": 180.0,
+    "hold2_min": 105.0,
+    "htc_bottom": 90.0,
+    "htc_top": 75.0,
+    "tool_thickness_m": 0.025
+  },
+  "shape": [
+    61,
+    81
+  ],
+  "axes": [
+    "time",
+    "thickness_position"
+  ],
+  "hold_end_seconds": 300.0,
+  "maximum_spatial_temperature_difference_C": 10.0,
+  "temperature_difference_peak_time_min": 0.0,
+  "maximum_spatial_doc_difference": 0.020000000000000018,
+  "hold_end_min_doc": 0.35,
+  "hold_end_doc_difference": 0.020000000000000018,
+  "full_horizon_final_min_doc": 0.65,
+  "full_horizon_final_doc_difference": 0.020000000000000018,
+  "singleton_checks": [],
+  "subdomain_boundary_jumps": [],
+  "warning": "Predicted thickness uniformity only; no defect or quality threshold is inferred."
+}

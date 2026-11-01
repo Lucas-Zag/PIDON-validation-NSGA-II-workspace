@@ -1,0 +1,169 @@
+{
+  "checkpoints": [
+    {
+      "seed": 42,
+      "budget": 1200,
+      "feasible_count": 1051,
+      "feasible_rate": 0.8758333333333334,
+      "pareto_count": 87,
+      "hypervolume": 85.0380899300867,
+      "best_feasible_time_min": 217.45843248825162,
+      "best_feasible_doc": 0.8302764296531677,
+      "elapsed_seconds": 40.176424583012704,
+      "baseline_delta_time_percent": 13.363174307469475
+    },
+    {
+      "seed": 42,
+      "budget": 2000,
+      "feasible_count": 1838,
+      "feasible_rate": 0.919,
+      "pareto_count": 193,
+      "hypervolume": 85.9632152613944,
+      "best_feasible_time_min": 216.3695214459618,
+      "best_feasible_doc": 0.830578625202179,
+      "elapsed_seconds": 59.47867645800579,
+      "baseline_delta_time_percent": 13.797003407983349
+    },
+    {
+      "seed": 42,
+      "budget": 4000,
+      "feasible_count": 3788,
+      "feasible_rate": 0.947,
+      "pareto_count": 418,
+      "hypervolume": 86.42212912600931,
+      "best_feasible_time_min": 215.81650394335298,
+      "best_feasible_doc": 0.8306048512458801,
+      "elapsed_seconds": 111.40068691596389,
+      "baseline_delta_time_percent": 14.017329106233872
+    },
+    {
+      "seed": 43,
+      "budget": 1200,
+      "feasible_count": 1102,
+      "feasible_rate": 0.9183333333333333,
+      "pareto_count": 153,
+      "hypervolume": 86.03373866010682,
+      "best_feasible_time_min": 216.48036925087445,
+      "best_feasible_doc": 0.8347944617271423,
+      "elapsed_seconds": 30.496058833028655,
+      "baseline_delta_time_percent": 13.752840935906596
+    },
+    {
+      "seed": 43,
+      "budget": 2000,
+      "feasible_count": 1889,
+      "feasible_rate": 0.9445,
+      "pareto_count": 235,
+      "hypervolume": 86.30824576265032,
+      "best_feasible_time_min": 216.16714622219672,
+      "best_feasible_doc": 0.8349936604499817,
+      "elapsed_seconds": 51.039895833004266,
+      "baseline_delta_time_percent": 13.877630987172621
+    },
+    {
+      "seed": 43,
+      "budget": 4000,
+      "feasible_count": 3848,
+      "feasible_rate": 0.962,
+      "pareto_count": 451,
+      "hypervolume": 86.56720839146864,
+      "best_feasible_time_min": 215.87675064525845,
+      "best_feasible_doc": 0.8354147672653198,
+      "elapsed_seconds": 100.6833347909851,
+      "baseline_delta_time_percent": 13.99332643615201
+    },
+    {
+      "seed": 44,
+      "budget": 1200,
+      "feasible_count": 1064,
+      "feasible_rate": 0.8866666666666667,
+      "pareto_count": 99,
+      "hypervolume": 85.68532199830672,
+      "best_feasible_time_min": 216.81105067326487,
+      "best_feasible_doc": 0.8329432606697083,
+      "elapsed_seconds": 25.07479087501997,
+      "baseline_delta_time_percent": 13.621095349296864
+    },
+    {
+      "seed": 44,
+      "budget": 2000,
+      "feasible_count": 1847,
+      "feasible_rate": 0.9235,
+      "pareto_count": 194,
+      "hypervolume": 86.16983481999782,
+      "best_feasible_time_min": 216.3000438813565,
+      "best_feasible_doc": 0.834152340888977,
+      "elapsed_seconds": 48.57585045899032,
+      "baseline_delta_time_percent": 13.824683712606978
+    },
+    {
+      "seed": 44,
+      "budget": 4000,
+      "feasible_count": 3793,
+      "feasible_rate": 0.94825,
+      "pareto_count": 357,
+      "hypervolume": 86.3288250035944,
+      "best_feasible_time_min": 216.1730200839325,
+      "best_feasible_doc": 0.8353428840637207,
+      "elapsed_seconds": 101.64914754201891,
+      "baseline_delta_time_percent": 13.875290803214144
+    }
+  ],
+  "aggregated": [
+    {
+      "budget": 1200,
+      "n_seeds": 3,
+      "feasible_rate_mean": 0.8936111111111111,
+      "feasible_rate_std": 0.02208464356700105,
+      "hypervolume_mean": 85.58571686283341,
+      "hypervolume_std": 0.5052425018317067,
+      "best_feasible_time_min_mean": 216.91661747079698,
+      "best_feasible_time_min_std": 0.49750395539439335,
+      "best_feasible_doc_mean": 0.8326713840166727,
+      "best_feasible_doc_std": 0.00227125320940118,
+      "elapsed_seconds_mean": 31.915758097020444,
+      "elapsed_seconds_std": 7.650261084612061,
+      "baseline_delta_time_percent_mean": 13.579036864224312,
+      "baseline_delta_time_percent_std": 0.19820874716908166
+    },
+    {
+      "budget": 2000,
+      "n_seeds": 3,
+      "feasible_rate_mean": 0.929,
+      "feasible_rate_std": 0.013610657588816192,
+      "hypervolume_mean": 86.14709861468084,
+      "hypervolume_std": 0.17363528723560062,
+      "best_feasible_time_min_mean": 216.27890384983834,
+      "best_feasible_time_min_std": 0.10283048428327235,
+      "best_feasible_doc_mean": 0.8332415421803793,
+      "best_feasible_doc_std": 0.0023442055745012485,
+      "elapsed_seconds_mean": 53.03147425000012,
+      "elapsed_seconds_std": 5.717752367362962,
+      "baseline_delta_time_percent_mean": 13.833106035920983,
+      "baseline_delta_time_percent_std": 0.04096832043158239
+    },
+    {
+      "budget": 4000,
+      "n_seeds": 3,
+      "feasible_rate_mean": 0.9524166666666667,
+      "feasible_rate_std": 0.008322910148099228,
+      "hypervolume_mean": 86.43938750702412,
+      "hypervolume_std": 0.12012513762755439,
+      "best_feasible_time_min_mean": 215.95542489084798,
+      "best_feasible_time_min_std": 0.19083544564031818,
+      "best_feasible_doc_mean": 0.8337875008583069,
+      "best_feasible_doc_std": 0.002756489745179216,
+      "elapsed_seconds_mean": 104.5777230829893,
+      "elapsed_seconds_std": 5.928560125955909,
+      "baseline_delta_time_percent_mean": 13.961982115200009,
+      "baseline_delta_time_percent_std": 0.07603005802403137
+    }
+  ],
+  "notes": [
+    "All metrics derived from actual XPIDON prediction records.",
+    "Checkpoint budgets are nested within each independent 4000-evaluation seed run.",
+    "HV uses the fixed V7 reference (320 min, -DoC=0); use common reference and objective directions across all runs.",
+    "These are surrogate predictions; FEA validation remains pending.",
+    "Small standard deviations from few seeds are descriptive, not proof of statistical significance."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "alpha_requirement": 0.82,
+  "temperature_limit_C": 195.0,
+  "steps": 100,
+  "unique_evaluations": 128,
+  "scope": "Local smoke training; FE validation pending"
+}

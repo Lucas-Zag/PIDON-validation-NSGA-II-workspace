@@ -1,0 +1,7 @@
+study,case_id,ramp1_C_min,hold1_T_C,hold1_d_min,ramp2_C_min,hold2_T_C,hold2_d_min,hbot_W_m2K,htop_W_m2K,Lt_m,Lc_m,total_process_time_s,label,curve_label
+tool_thickness,thin_tool_2cm,2.2,110,58,2.2,180,105,90,75,0.020,0.030,18800,Tool thickness = 2 cm,2 cm tool
+tool_thickness,thick_tool_4cm,2.2,110,58,2.2,180,105,90,75,0.040,0.030,18800,Tool thickness = 4 cm,4 cm tool
+htc_tool,high_htc_thin_tool,2.2,110,58,2.2,180,105,85,110,0.025,0.030,18800,High HTCs and thin tool,High HTC / thin tool
+htc_tool,low_htc_thick_tool,2.2,110,58,2.2,180,105,60,85,0.040,0.030,18800,Low HTCs and thick tool,Low HTC / thick tool
+cure_cycle,cure_cycle_1,2.0,108,65,2.0,176,108,70,95,0.040,0.030,18800,Cure cycle 1,Cure cycle 1
+cure_cycle,cure_cycle_2,2.7,116,52,2.7,184,102,70,95,0.040,0.030,18800,Cure cycle 2,Cure cycle 2

@@ -1,0 +1,26 @@
+{
+  "case_id": "Shortest_feasible",
+  "label": "Shortest feasible",
+  "parameters": {
+    "ramp1_C_min": 2.9910863815027664,
+    "hold1_T_C": 119.99939067402241,
+    "hold1_d_min": 50.00305351190241,
+    "ramp2_C_min": 2.9006175512914822,
+    "hold2_T_C": 184.9914322866017,
+    "hold2_d_min": 109.97470801692397
+  },
+  "hold_end_min": 215.81650394335298,
+  "hbot_W_m2K": 70,
+  "htop_W_m2K": 95,
+  "tool_thickness_m": 0.04,
+  "composite_thickness_m": 0.03,
+  "initial_temperature_C": 20,
+  "alpha_requirement": 0.82,
+  "protocol": "XPIDON vs independent FEA at matched time, position, material and boundary conditions",
+  "model_prediction_unvalidated": {
+    "minimum_hold_end_DoC": 0.8200041651725769,
+    "peak_part_temperature_C": 193.6207275390625
+  },
+  "reference_prediction_horizon_s": 18800,
+  "case_sha256": "a89effdbb451599a1e8543928a32d4f32b85d0454f04c9a16e48cebf6df0357b"
+}

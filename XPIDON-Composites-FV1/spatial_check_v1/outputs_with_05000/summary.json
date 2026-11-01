@@ -1,0 +1,169 @@
+{
+  "mode": "XPIDON",
+  "backend": "METAL [METAL(id=0)]",
+  "case": {
+    "ramp1_C_min": 2.2,
+    "hold1_T_C": 110.0,
+    "hold1_min": 58.0,
+    "ramp2_C_min": 2.2,
+    "hold2_T_C": 180.0,
+    "hold2_min": 105.0,
+    "htc_bottom": 90.0,
+    "htc_top": 75.0,
+    "tool_thickness_m": 0.025
+  },
+  "shape": [
+    1882,
+    81
+  ],
+  "axes": [
+    "time",
+    "thickness_position"
+  ],
+  "hold_end_seconds": 14143.636363636364,
+  "maximum_spatial_temperature_difference_C": 29.27252197265625,
+  "temperature_difference_peak_time_min": 145.66666666666666,
+  "maximum_spatial_doc_difference": 0.29080143570899963,
+  "hold_end_min_doc": 0.8251205682754517,
+  "hold_end_doc_difference": 0.01600426435470581,
+  "full_horizon_final_min_doc": 0.8281974792480469,
+  "full_horizon_final_doc_difference": 0.014284610748291016,
+  "singleton_checks": [
+    {
+      "time_seconds": 1880.0,
+      "x_norm": 0.0,
+      "temperature_C": 50.523040771484375,
+      "doc": 0.050057023763656616
+    },
+    {
+      "time_seconds": 1880.0,
+      "x_norm": 0.5,
+      "temperature_C": 52.73810577392578,
+      "doc": 0.05008162558078766
+    },
+    {
+      "time_seconds": 1880.0,
+      "x_norm": 1.0,
+      "temperature_C": 72.3415298461914,
+      "doc": 0.05039293318986893
+    },
+    {
+      "time_seconds": 5650.0,
+      "x_norm": 0.0,
+      "temperature_C": 106.9370346069336,
+      "doc": 0.06724332273006439
+    },
+    {
+      "time_seconds": 5650.0,
+      "x_norm": 0.5,
+      "temperature_C": 107.71659851074219,
+      "doc": 0.07037599384784698
+    },
+    {
+      "time_seconds": 5650.0,
+      "x_norm": 1.0,
+      "temperature_C": 109.19374084472656,
+      "doc": 0.08243010938167572
+    },
+    {
+      "time_seconds": 8470.0,
+      "x_norm": 0.0,
+      "temperature_C": 159.20022583007812,
+      "doc": 0.2167574018239975
+    },
+    {
+      "time_seconds": 8470.0,
+      "x_norm": 0.5,
+      "temperature_C": 181.2615966796875,
+      "doc": 0.3241603970527649
+    },
+    {
+      "time_seconds": 8470.0,
+      "x_norm": 1.0,
+      "temperature_C": 185.11972045898438,
+      "doc": 0.48571690917015076
+    },
+    {
+      "time_seconds": 10350.0,
+      "x_norm": 0.0,
+      "temperature_C": 185.32591247558594,
+      "doc": 0.690212607383728
+    },
+    {
+      "time_seconds": 10350.0,
+      "x_norm": 0.5,
+      "temperature_C": 189.24462890625,
+      "doc": 0.7905818819999695
+    },
+    {
+      "time_seconds": 10350.0,
+      "x_norm": 1.0,
+      "temperature_C": 184.6373291015625,
+      "doc": 0.7791916131973267
+    },
+    {
+      "time_seconds": 13170.0,
+      "x_norm": 0.0,
+      "temperature_C": 181.72195434570312,
+      "doc": 0.8169642090797424
+    },
+    {
+      "time_seconds": 13170.0,
+      "x_norm": 0.5,
+      "temperature_C": 181.82449340820312,
+      "doc": 0.8371416330337524
+    },
+    {
+      "time_seconds": 13170.0,
+      "x_norm": 1.0,
+      "temperature_C": 180.8340606689453,
+      "doc": 0.8265930414199829
+    },
+    {
+      "time_seconds": 16930.0,
+      "x_norm": 0.0,
+      "temperature_C": 125.82917022705078,
+      "doc": 0.8281934261322021
+    },
+    {
+      "time_seconds": 16930.0,
+      "x_norm": 0.5,
+      "temperature_C": 123.08142852783203,
+      "doc": 0.8422910571098328
+    },
+    {
+      "time_seconds": 16930.0,
+      "x_norm": 1.0,
+      "temperature_C": 101.78321075439453,
+      "doc": 0.832805335521698
+    }
+  ],
+  "subdomain_boundary_jumps": [
+    {
+      "time_seconds": 3760.0,
+      "max_temperature_jump_C": 0.29845428466796875,
+      "max_doc_jump": 0.0005322359502315521
+    },
+    {
+      "time_seconds": 7520.0,
+      "max_temperature_jump_C": 0.337738037109375,
+      "max_doc_jump": 0.001797407865524292
+    },
+    {
+      "time_seconds": 9400.0,
+      "max_temperature_jump_C": 0.1754302978515625,
+      "max_doc_jump": 0.0018685460090637207
+    },
+    {
+      "time_seconds": 11280.0,
+      "max_temperature_jump_C": 0.223175048828125,
+      "max_doc_jump": 0.0013591647148132324
+    },
+    {
+      "time_seconds": 15040.0,
+      "max_temperature_jump_C": 0.47125244140625,
+      "max_doc_jump": 0.0002529025077819824
+    }
+  ],
+  "warning": "Predicted thickness uniformity only; no defect or quality threshold is inferred."
+}

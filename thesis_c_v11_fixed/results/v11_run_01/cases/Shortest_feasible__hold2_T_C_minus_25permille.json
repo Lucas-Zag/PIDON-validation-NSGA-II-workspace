@@ -1,0 +1,19 @@
+{
+  "case_id": "Shortest_feasible__hold2_T_C_minus_25permille",
+  "base_case": "Shortest_feasible",
+  "varied_parameter": "hold2_T_C",
+  "fraction_of_training_range": 0.025,
+  "sign": -1,
+  "hold_end_min": 215.7303154005412,
+  "fe_min_doc": 0.8217976301920263,
+  "fe_pass": true,
+  "fe_solve_s": 0.5565196250099689,
+  "case_parameters": {
+    "ramp1_C_min": 2.9910863815027664,
+    "hold1_T_C": 119.99939067402241,
+    "hold1_d_min": 50.00305351190241,
+    "ramp2_C_min": 2.9006175512914822,
+    "hold2_T_C": 184.7414322866017,
+    "hold2_d_min": 109.97470801692397
+  }
+}

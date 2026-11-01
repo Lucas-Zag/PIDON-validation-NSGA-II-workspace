@@ -1,0 +1,6 @@
+case_id,ramp1_C_min,hold1_T_C,hold1_d_min,ramp2_C_min,hold2_T_C,hold2_d_min,hbot_W_m2K,htop_W_m2K,Lt_m,Lc_m,total_process_time_s,comment
+xpidon_exact_case,2.2,110,58,2.2,180,105,90,75,0.025,0.030,18800,Exact case shared by FE and XPIDON
+paper_fig7_caption,2.2,110,58,2.2,180,105,115,75,0.025,0.030,18800,Exact values stated in the paper Fig. 7 caption; hbot is outside Table 2 range and is retained for reproduction
+repo_midrange,2.25,110,60,2.25,180,105,65,95,0.040,0.030,18800,Within official XPIDON repository input ranges
+high_htc_thin_tool,2.2,110,58,2.2,180,105,90,120,0.020,0.030,18800,High heat transfer and thin tool sensitivity case
+low_htc_thick_tool,2.2,110,58,2.2,180,105,40,70,0.070,0.030,18800,Low heat transfer and thick tool sensitivity case
